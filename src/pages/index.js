@@ -162,7 +162,7 @@ const Landing = () => (
 							<h1>
 								<span className="mt-1 block text-gray-900 text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
 									<span className="underlined">Fast</span> funding for{' '}
-									<span className="underlined">early</span> blockchain projects
+									<span className="underlined">early</span> web3 projects
 								</span>
 							</h1>
 							<p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
