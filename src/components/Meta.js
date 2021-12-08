@@ -8,7 +8,7 @@ const Meta = ({ title, desc }) => {
 			<meta name="title" content={title} />
 			<meta name="description" content={desc} />
 			<link rel="icon" href="logo.svg" />
-
+			<script defer data-domain="hyperscalefund.com" src="https://plausible.io/js/plausible.js"></script>
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content="https://hyperscalefund.com" />
 			<meta property="og:title" content={title} />
