@@ -218,7 +218,7 @@ const Landing = () => (
 			</div>
 		</div>
 		<div className="py-16 lg:py-20 lg:px-8 bg-[#FAFAFE]">
-			<div className="max-w-7xl mx-auto px-4 sm:px-6">
+			<div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
 				<h2 className="text-3xl font-extrabold text-gray-900">Timeline</h2>
 				<p className="mt-4 text-lg text-gray-500">
 					Kick off the process in five minutes, and get a response within a week.
