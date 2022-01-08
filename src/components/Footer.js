@@ -1,5 +1,6 @@
 import Link from 'next/link'
 
+const separator = '//'
 const links = [
 	'https://www.hyperscalefund.com',
 	'https://www.twitter.com/HyperscaleFund',
@@ -15,13 +16,13 @@ const Footer = () => (
 					<div className="text-white">Home</div>
 				</a>
 			</Link>
-			<div className="text-[#FEDB9E] mx-4">//</div>
+			<div className="text-[#FEDB9E] mx-4">{separator}</div>
 			<Link href={links[1]}>
 				<a target="_blank">
 					<div className="text-white">Twitter</div>
 				</a>
 			</Link>
-			<div className="text-[#FEDB9E] mx-4">//</div>
+			<div className="text-[#FEDB9E] mx-4">{separator}</div>
 			<Link href={links[2]}>
 				<a target="_blank">
 					<div className="text-white">Discord</div>
