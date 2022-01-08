@@ -15,6 +15,7 @@ const airtableUrl = 'https://airtable.com/shrLFCXD7BQXUg97K'
 // components
 import Section1 from '../components/Section1'
 import Section3 from '../components/Section3'
+import Section5 from '../components/Section5'
 import Footer from '../components/Footer'
 
 class ApplyButtonNav extends Component {
@@ -52,13 +53,8 @@ const Landing = () => (
 	<div>
 		<Section1 />
 		<Section3 />
+		<Section5 />
 		<Footer />
-
-		<img src="/token.svg"></img>
-		<img src="/token2.svg"></img>
-		<img src="/section2/icon1.svg"></img>
-		<img src="/section2/icon2.svg"></img>
-		<img src="/section2/icon3.svg"></img>
 	</div>
 )
 
