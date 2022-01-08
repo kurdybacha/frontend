@@ -1,53 +1,49 @@
-import Link from 'next/link'
-
-const text = 'Receive funding & join the ecosystem in <1W'
-const links = [
-	'https://www.twitter.com/HyperscaleFund',
-	'https://discord.gg/7CGPQ8fWHt',
-	'https://airtable.com/shrLFCXD7BQXUg97K',
-]
+const text = 'We get to a decision fast so you can focus on execution.'
 
 const Section1 = () => (
-	<div style={{ backgroundImage: "url('/section1/bg.svg')" }}>
-		<div className="flex w-screen pt-4 justify-between px-20">
-			<div className="flex items-center">
-				<img src="/logo.svg" width="60" />
-				<div className="text-white text-3xl font-semibold ml-4">Hyperscale</div>
+	<div className="bg-[#160A2F] py-32">
+		<div className="flex flex-col justify-center items-center">
+			<div className="flex bg-white w-48 h-10 rounded-sm justify-center items-center font-semibold">
+				Application Process
 			</div>
-			<div className="flex items-center">
-				<Link href={links[0]}>
-					<a target="_blank">
-						<div className="text-white mr-16">Twitter</div>
-					</a>
-				</Link>
-				<Link href={links[1]}>
-					<a target="_blank">
-						<div className="text-white mr-16">Discord</div>
-					</a>
-				</Link>
-				<Link href={links[2]}>
-					<a target="_blank">
-						<div className="flex w-24 h-10 bg-[#BAC4FA] rounded-sm justify-center items-center font-semibold">
-							Apply
-						</div>
-					</a>
-				</Link>
+			<div className="my-8">
+				<img src="/section3/header.svg" />
 			</div>
+			<div className="text-white text-2xl">{text}</div>
 		</div>
-		<div className="flex items-center justify-evenly py-32">
+		<div className="flex justify-evenly py-28">
+			<img src="/section3/diagram.svg" />
 			<div className="flex flex-col">
-				<img src="/section1/title.svg" />
-				<div className="text-white text-2xl my-12">{text}</div>
-				<Link href={links[2]}>
-					<a target="_blank">
-						<div className="flex w-24 h-10 bg-[#BAC4FA] rounded-sm justify-center items-center font-semibold">
-							Apply
+				<div className="flex items-center my-8">
+					<img src="/section3/apply.svg" width={60} />
+					<div className="flex flex-col ml-8 w-60">
+						<div className="text-[#BAC4FA] font-bold">APPLY</div>
+						<div className="text-white">In just 15 minutes</div>
+					</div>
+				</div>
+				<div className="flex items-center my-8">
+					<img src="/section3/block.svg" width={60} />
+					<div className="flex flex-col ml-8 w-60">
+						<div className="text-[#BAC4FA] font-bold">REVIEW & ASYNC INTERVIEW</div>
+						<div className="text-white">We review your application and if we like it, we interview you</div>
+					</div>
+				</div>
+				<div className="flex items-center my-8">
+					<img src="/section3/call.svg" width={60} />
+					<div className="flex flex-col ml-8 w-60">
+						<div className="text-[#BAC4FA] font-bold">CALL</div>
+						<div className="text-white">A 15 minute call is the final  process in the application.</div>
+					</div>
+				</div>
+				<div className="flex items-center my-8">
+					<img src="/section3/logo.svg" width={60} />
+					<div className="flex flex-col ml-8 w-60">
+						<div className="text-[#BAC4FA] font-bold">DD & FUNDING</div>
+						<div className="text-white">
+							If you are accepted into Hyperscale, we will do Due Dilligence and then fund you.
 						</div>
-					</a>
-				</Link>
-			</div>
-			<div>
-				<img src="/section1/info.svg"></img>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

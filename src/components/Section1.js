@@ -47,7 +47,7 @@ const Section1 = () => (
 				</Link>
 			</div>
 			<div>
-				<img src="/section1/info.svg"></img>
+				<img src="/section1/info.svg" />
 			</div>
 		</div>
 	</div>
