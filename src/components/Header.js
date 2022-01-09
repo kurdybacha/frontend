@@ -9,27 +9,33 @@ const links = [
 	'https://www.twitter.com/HyperscaleFund',
 	'https://discord.gg/7CGPQ8fWHt',
 	'https://airtable.com/shrLFCXD7BQXUg97K',
+	''
 ]
 
 const Header = () => (
 	<nav>
       	<Popover className="flex items-center justify-items-center justify-between pt-4 mx-4 md:mx-20">
 			<Link href="/">
-			<a className="flex items-center">
-				<img src="/logo.svg" width="60" />
-				<div className="text-white text-3xl font-semibold ml-4">Hyperscale</div>
-			</a>
+				<a className="flex items-center">
+					<img src="/logo.svg" width="60" />
+					<div className="text-white text-3xl font-semibold ml-4">Hyperscale</div>
+				</a>
 			</Link>
 			{/* Desktop Navigation */}
-			<div className="hidden md:flex md:items-center space-x-0 text-redrose">
+			<div className="hidden lg:flex md:items-center space-x-0 text-redrose">
+				<Link href={links[3]}>
+					<a>
+						<div className="text-white mr-8 lg:mr-16">Knowledge base</div>
+					</a>
+				</Link>
 				<Link href={links[0]}>
 					<a target="_blank">
-						<div className="text-white mr-16">Twitter</div>
+						<div className="text-white mr-8 lg:mr-16">Twitter</div>
 					</a>
 				</Link>
 				<Link href={links[1]}>
 					<a target="_blank">
-						<div className="text-white mr-16">Discord</div>
+						<div className="text-white mr-8 lg:mr-16">Discord</div>
 					</a>
 				</Link>
 				<Link href={links[2]}>
@@ -41,7 +47,7 @@ const Header = () => (
 				</Link>
 			</div>
 			{/* Mobile Navigation */}
-			<div className="-mr-2 flex items-center md:hidden">
+			<div className="-mr-2 flex items-center lg:hidden">
 				<Popover.Button className="stroke-white text-white rounded-md p-2 inline-flex items-center justify-center hover:text-[#FEDB9E] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
 					<span className="sr-only">Open main menu</span>
 					<MenuIcon className="h-6 w-6" aria-hidden="true" />
@@ -58,7 +64,7 @@ const Header = () => (
 			>
 			<Popover.Panel
 				focus
-				className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+				className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden"
 			>
 				<div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
 				<div className="px-5 pt-4 flex items-center justify-between">
@@ -78,6 +84,11 @@ const Header = () => (
 					</div>
 				</div>
 				<div className="px-2 pt-2 pb-3 space-y-1">
+					<Link href={links[3]}>
+						<a>
+							<div className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Knowledge base</div>
+						</a>
+					</Link>
 					<Link href={links[0]}>
 						<a target="_blank">
 							<div className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Twitter</div>

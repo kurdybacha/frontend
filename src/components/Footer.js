@@ -1,5 +1,6 @@
 import Link from 'next/link'
 
+const text = 'Hyperscale'
 const separator = '//'
 const links = [
 	'https://www.hyperscalefund.com',
@@ -9,8 +10,8 @@ const links = [
 ]
 
 const Footer = () => (
-	<div className="w-screen h-24 bg-[#100528] flex justify-center items-center relative">
-		<div className="flex absolute left-20">
+	<div className="w-screen py-8 bg-[#100528] flex flex-col-reverse md:justify-center items-center relative">
+		<div className="flex md:absolute left-20">
 			<Link href={links[0]}>
 				<a>
 					<div className="text-white">Home</div>
@@ -29,7 +30,7 @@ const Footer = () => (
 				</a>
 			</Link>
 		</div>
-		<img src="/footer/text.svg" />
+		<div className="text-white text-xl mb-6 md:mb-0">{text}</div> 
 	</div>
 )
 
