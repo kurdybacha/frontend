@@ -88,22 +88,6 @@ const Header = () => (
 							<div className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Discord</div>
 						</a>
 					</Link>
-					{/* <a
-					href="https://twitter.com/HyperscaleFund"
-					className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-					rel="external noreferrer"
-					target="_blank"
-					>
-					Twitter
-					</a>
-					<a
-					href="https://discord.com/invite/pVSbzYny2c"
-					className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-					rel="external noreferrer"
-					target="_blank"
-					>
-					Discord
-					</a> */}
 					<Link href={links[2]}>
 						<a target="_blank">
 							<div className="flex w-24 h-10 bg-[#BAC4FA] rounded-sm justify-center items-center font-semibold">
@@ -112,9 +96,6 @@ const Header = () => (
 						</a>
 					</Link>
 				</div>
-              {/* <Button color="primary" onClick={discordBtnProps.onClick}>
-                {discordBtnProps.text}
-              </Button> */}
             </div>
           </Popover.Panel>
         </Transition>

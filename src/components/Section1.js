@@ -11,7 +11,6 @@ const links = [
 const Section1 = () => (
 	<div className="bg-no-repeat bg-cover" style={{ backgroundImage: "url('/section1/bg.svg')" }}>
 		<Header />
-
 		<div className="flex items-center justify-evenly py-32 px-8">
 			<div className="flex flex-col">
 				<img src="/section1/title.svg" />
