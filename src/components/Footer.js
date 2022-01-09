@@ -10,7 +10,7 @@ const links = [
 ]
 
 const Footer = () => (
-	<div className="w-screen py-8 bg-[#100528] flex flex-col-reverse md:justify-center items-center relative">
+	<div className="w-full py-8 bg-[#100528] flex flex-col-reverse md:justify-center items-center relative">
 		<div className="flex md:absolute left-20">
 			<Link href={links[0]}>
 				<a>
