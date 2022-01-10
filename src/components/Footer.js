@@ -9,7 +9,7 @@ const links = [
 ]
 
 const Footer = () => (
-	<div className="w-screen h-24 bg-[#100528] flex justify-center items-center relative">
+	<div className="h-24 bg-[#100528] flex justify-center items-center relative">
 		<div className="flex absolute left-20">
 			<Link href={links[0]}>
 				<a>

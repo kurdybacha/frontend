@@ -8,8 +8,8 @@ const links = [
 ]
 
 const Section1 = () => (
-	<div className="bg-no-repeat bg-cover" style={{ backgroundImage: "url('/section1/bg.svg')" }}>
-		<div className="flex w-screen pt-4 justify-between px-20">
+	<div className="bg-no-repeat bg-cover" style={{ backgroundImage: "url('/section1/bg1.jpeg')" }}>
+		<div className="flex pt-4 justify-between px-20">
 			<div className="flex items-center">
 				<img src="/logo.svg" width="60" />
 				<div className="text-white text-3xl font-semibold ml-4">Hyperscale</div>

@@ -1,12 +1,12 @@
 import Link from 'next/link'
 
-const text = 'Receive up to $1M from. Apply in 15 minutes and you’ll recieve a decision as soon as 1-week'
+const text = 'Receive up to $1M from. Apply in 15 minutes and you’ll recieve a decision in a few days'
 const links = ['https://airtable.com/shrLFCXD7BQXUg97K']
 
 const Section5 = () => (
 	<div
 		className="bg-no-repeat bg-cover flex flex-col justify-center items-center py-40 relative"
-		style={{ backgroundImage: "url('/section5/bg.svg')" }}
+		style={{ backgroundImage: "url('/section5/bg.jpeg')" }}
 	>
 		<img src="/coins/token5.svg" className="absolute -top-10 right-24" />
 		<img src="/section5/header.svg" />
