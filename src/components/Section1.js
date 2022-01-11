@@ -24,7 +24,7 @@ const Section1 = () => (
 				</Link>
 			</div>
 			<div>
-				<img src="/section1/2-Hero-image.png" />
+				<img src="/section1/2-Hero-image.png" className="md:max-w-md lg:max-w-lg"/>
 			</div>
 		</div>
 		</div>

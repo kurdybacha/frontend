@@ -12,20 +12,20 @@ const Section2 = () => (
 				<div className="flex flex-col justify-center items-center">
 					<img src="/section2/join.svg" />
 					<div className="text-xl mt-4">{text}</div>
-					<div className="flex justify-evenly my-16 px-8">
-					<div  className='w-3/12 section-2-card text-center'>
+					<div className="flex justify-evenly flex-wrap my-16">
+						<div  className='lg:w-3/12 section-2-card text-center px-14 my-8'>
 							<h3 className="font-['Redrose'] text-3xl  mt-10 font-bold" >Hyper Fast <br/> Funding</h3>
-							<img className='py-8' src="/section2/Fast-funding.svg" />
+							<img className='py-8' src="/section2/4-Fast-funding.png" />
 							<div className="text-lg	 text-center px-2 mb-10">Receive up to $1M from. Apply in 15 minutes and you'll recieve a decision in a few days</div>
 				 		</div>
-						 <div  className='w-3/12 section-2-card text-center'>
+						 <div  className='lg:w-3/12 section-2-card text-center px-14 my-8'>
 							<h3 className="font-['Redrose'] text-3xl  mt-10 font-bold" >The Hyperscale  <br/> Community</h3>
-							<img className='py-8' src="/section2/hyperscale-community.svg" />
+							<img className='py-8' src="/section2/5-Community.png" />
 							<div className="text-lg	 text-center px-2 mb-10">Community of high-performing DAOs, founders, web3 experts, and like-minded peers</div>
 				 		</div>
-						 <div  className='w-3/12 section-2-card text-center'>
+						 <div  className='lg:w-3/12 section-2-card text-center px-14 my-8'>
 							<h3 className="font-['Redrose'] text-3xl  mt-10 font-bold" >The Talent <br/> Network</h3>
-							<img className='py-8' src="/section2/t-network.svg" />
+							<img className='py-8' src="/section2/6-Talent-network.png" />
 							<div className="text-lg	 text-center px-2 mb-10">Find top-tier developers, designers, governance experts, &#38; legal advisors</div>
 				 		</div>
 					</div>

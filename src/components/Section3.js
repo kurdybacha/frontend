@@ -26,7 +26,7 @@ const Section3 = () => (
 					<img src="/section3/10-Review.png" width={60} />
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">REVIEW {ampersand} ASYNC INTERVIEW</div>
-						<div className="text-white">We review your application and if we like it, we interview you</div>
+						<div className="text-white">We review your application and progress it if it excites us.</div>
 					</div>
 				</div>
 				<div className="flex items-center my-8">
@@ -41,7 +41,7 @@ const Section3 = () => (
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">DD {ampersand} FUNDING</div>
 						<div className="text-white">
-							If you are accepted into Hyperscale, we will do Due Dilligence and then fund you.
+							We carry out Due Dilligence and then fund your project. Welcome to the Hyperscale ecosystem.
 						</div>
 					</div>
 				</div>
