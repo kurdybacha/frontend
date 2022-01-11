@@ -23,7 +23,7 @@ const Section3 = () => (
 					</div>
 				</div>
 				<div className="flex items-center my-8">
-					<img src="/section3/block.svg" width={60} />
+					<img src="/section3/10-Review.png" width={60} />
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">REVIEW {ampersand} ASYNC INTERVIEW</div>
 						<div className="text-white">We review your application and if we like it, we interview you</div>

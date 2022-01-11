@@ -9,7 +9,7 @@ const links = [
 ]
 
 const Section1 = () => (
-	<div className="bg-no-repeat bg-cover" style={{ backgroundImage: "url('/section1/bg.svg')" }}>
+	<div className="bg-no-repeat bg-cover bg-[#160A2F]" style={{ backgroundImage: "url('/section1/1-hero-BG.jpg')" }}>
 		<Header />
 		<div className="flex items-center justify-evenly py-32 px-8">
 			<div className="flex flex-col">
@@ -24,7 +24,7 @@ const Section1 = () => (
 				</Link>
 			</div>
 			<div>
-				<img src="/section1/info.svg" />
+				<img src="/section1/2-Hero-image.png" />
 			</div>
 		</div>
 		</div>

@@ -6,7 +6,7 @@ const links = ['https://airtable.com/shrLFCXD7BQXUg97K']
 const Section5 = () => (
 	<div
 		className="bg-no-repeat bg-cover flex flex-col justify-center items-center py-12 lg:py-40 relative"
-		style={{ backgroundImage: "url('/section5/bg.svg')" }}
+		style={{ backgroundImage: "url('/section5/14-Final-Section-BG.jpg')" }}
 	>
 		<img src="/coins/token5.svg" className="lg:absolute -top-10 right-24" />
 		<img src="/section5/header.svg" />
