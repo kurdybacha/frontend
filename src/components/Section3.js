@@ -25,23 +25,23 @@ const Section3 = () => (
 				<div className="flex items-center my-8">
 					<img src="/section3/block.svg" width={60} />
 					<div className="flex flex-col ml-8 w-60">
-						<div className="text-[#BAC4FA] font-bold">REVIEW {ampersand} INTERVIEW</div>
-						<div className="text-white">We review your application and, if we like it, progress your application to the next stage /div>
+						<div className="text-[#BAC4FA] font-bold">REVIEW {ampersand} ASYNC INTERVIEW</div>
+						<div className="text-white">We review your application and if we like it, we interview you</div>
 					</div>
 				</div>
 				<div className="flex items-center my-8">
 					<img src="/section3/call.svg" width={60} />
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">CALL</div>
-						<div className="text-white">A 15 minute call with founders and core members.</div>
+						<div className="text-white">A 15 minute call is the final process in the application.</div>
 					</div>
 				</div>
 				<div className="flex items-center my-8">
 					<img src="/section3/logo.svg" width={60} />
 					<div className="flex flex-col ml-8 w-60">
-						<div className="text-[#BAC4FA] font-bold">FUNDING</div>
+						<div className="text-[#BAC4FA] font-bold">DD {ampersand} FUNDING</div>
 						<div className="text-white">
-						  We will carry out DD and then fund you. Welcome to the Hyperscale ecosystem.
+							If you are accepted into Hyperscale, we will do Due Dilligence and then fund you.
 						</div>
 					</div>
 				</div>
