@@ -38,7 +38,6 @@ const Section2 = () => (
 			</div>
 		</div>
 	</div>
-	
 )
 
 export default Section2
