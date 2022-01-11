@@ -11,9 +11,10 @@ const links = [
 const Section1 = () => (
 	<div className="bg-no-repeat bg-cover bg-[#160A2F]" style={{ backgroundImage: "url('/section1/1-hero-BG.jpg')" }}>
 		<Header />
-		<div className="flex items-center justify-evenly py-32 px-8">
-			<div className="flex flex-col">
-				<img src="/section1/title.svg" />
+		<div className="flex flex-col-reverse lg:flex-row justify-evenly items-center space-x-3 pt-16 pb-32 lg:py-32 px-8">
+			<div className="flex flex-col max-w-3xl mt-12">
+				{/* <img src="/section1/title.svg" /> */}
+					<h1 className="font-redrose text-gray-100 font-bold text-6xl md:text-8xl">An ecosystem of <span className="">web3</span> projects</h1>
 				<div className="text-white text-2xl my-12">{text}</div>
 				<Link href={links[2]}>
 					<a target="_blank">
@@ -23,8 +24,8 @@ const Section1 = () => (
 					</a>
 				</Link>
 			</div>
-			<div>
-				<img src="/section1/2-Hero-image.png" />
+			<div className="mx-auto md:min-w-0 md:max-w-xl lg:max-w-xl">
+				<img src="/section1/2-Hero-image.png"/>
 			</div>
 		</div>
 		</div>

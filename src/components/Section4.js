@@ -10,7 +10,8 @@ const Section4 = () => (
 	<div className="bg-[#160A2F] p-8 md:p-20 relative">
 		<img src="/coins/token3.svg" className="absolute left-32 -top-4" />
 		<div className="bg-[#EBE8E3] py-24 px-10 md:px-20 rounded">
-			<img src="/section4/title.svg" className="mb-12" />
+			{/* <img src="/section4/title.svg" className="mb-12" /> */}
+			<h2 className="font-redrose text-5xl">Vision</h2>
 			<div className="my-6">{paragraph1}</div>
 			<div className="my-6">{paragraph2}</div>
 			<div className="my-6">{paragraph3}</div>
