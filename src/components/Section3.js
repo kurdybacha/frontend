@@ -2,7 +2,7 @@ const text = 'We get to a decision fast so you can focus on execution.'
 const ampersand = '&'
 
 const Section3 = () => (
-	<div className="bg-[#160A2F] py-32">
+	<div className="bg-[#160A2F] py-32 px-8">
 		<div className="flex flex-col justify-center items-center">
 			<div className="flex bg-white w-48 h-10 rounded-sm justify-center items-center font-semibold">
 				Application Process
@@ -12,7 +12,7 @@ const Section3 = () => (
 			</div>
 			<div className="text-white text-2xl">{text}</div>
 		</div>
-		<div className="flex justify-evenly py-28">
+		<div className="flex justify-evenly flex-wrap py-28">
 			<img src="/section3/diagram.svg" />
 			<div className="flex flex-col">
 				<div className="flex items-center my-8">
@@ -25,8 +25,8 @@ const Section3 = () => (
 				<div className="flex items-center my-8">
 					<img src="/section3/block.svg" width={60} />
 					<div className="flex flex-col ml-8 w-60">
-						<div className="text-[#BAC4FA] font-bold">REVIEW</div>
-						<div className="text-white">We're reviewing your application for setting you for the next stage.</div>
+						<div className="text-[#BAC4FA] font-bold">REVIEW {ampersand} INTERVIEW</div>
+						<div className="text-white">We review your application and, if we like it, progress your application to the next stage /div>
 					</div>
 				</div>
 				<div className="flex items-center my-8">
@@ -41,7 +41,7 @@ const Section3 = () => (
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">FUNDING</div>
 						<div className="text-white">
-						Now you're in the Hyperscale family! Enjoy the community and all the tools we're building for you.
+						  We will carry out DD and then fund you. Welcome to the Hyperscale ecosystem.
 						</div>
 					</div>
 				</div>
