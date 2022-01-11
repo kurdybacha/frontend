@@ -8,7 +8,7 @@ const Section3 = () => (
 				Application Process
 			</div>
 			<div className="my-8">
-				<img src="/section3/header.svg" />
+				<h2 className="font-redrose text-5xl text-center  text-gray-100">Get going in days isntead of months</h2>
 			</div>
 			<div className="text-white text-2xl">{text}</div>
 		</div>

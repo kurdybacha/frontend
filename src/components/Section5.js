@@ -9,7 +9,7 @@ const Section5 = () => (
 		style={{ backgroundImage: "url('/section5/14-Final-section-BG.jpg')" }}
 	>
 		<img src="/coins/token5.svg" className="lg:absolute -top-10 right-24" />
-		<img src="/section5/header.svg" />
+		<h2 className="font-redrose text-gray-100 text-4xl font-bold">Apply to Hyperscale</h2>
 		<div className="text-white text-xl my-12 text-center w-96">{text}</div>
 		<Link href={links[0]}>
 			<a target="_blank">
