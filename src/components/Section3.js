@@ -2,7 +2,7 @@ const text = 'We get to a decision fast so you can focus on execution.'
 const ampersand = '&'
 
 const Section3 = () => (
-	<div className="bg-[#160A2F] py-32">
+	<div className="bg-[#160A2F] py-32 px-8">
 		<div className="flex flex-col justify-center items-center">
 			<div className="flex bg-white w-48 h-10 rounded-sm justify-center items-center font-semibold">
 				Application Process
@@ -12,7 +12,7 @@ const Section3 = () => (
 			</div>
 			<div className="text-white text-2xl">{text}</div>
 		</div>
-		<div className="flex justify-evenly py-28">
+		<div className="flex justify-evenly flex-wrap py-28">
 			<img src="/section3/diagram.svg" />
 			<div className="flex flex-col">
 				<div className="flex items-center my-8">
@@ -26,7 +26,7 @@ const Section3 = () => (
 					<img src="/section3/block.svg" width={60} />
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">REVIEW {ampersand} ASYNC INTERVIEW</div>
-						<div className="text-white">We review your application and if we like it, we interview you</div>
+						<div className="text-white">We review your application and if we like it, we interview you</div>
 					</div>
 				</div>
 				<div className="flex items-center my-8">
