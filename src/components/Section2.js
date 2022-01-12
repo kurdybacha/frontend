@@ -16,7 +16,7 @@ const Section2 = () => (
 						<div  className="lg:w-3/12 section-2-card text-center px-14 my-8">
 							<h3 className="font-redrose text-3xl  mt-10 font-bold">Hyper Fast <br/> Funding</h3>
 							<img className='py-8' src="/section2/4-Fast-funding.png" />
-							<div className="text-lg	text-center px-2 mb-10" >Receive up to $1M from. Apply in 15 minutes and you&apos;ll recieve a decision in a few days</div>
+							<div className="text-lg	text-center px-2 mb-10" >Receive up to $1M from. Apply in 15 minutes and you&apos;ll recevie a decision within a few days</div>
 				 		</div>
 						<div className="lg:w-3/12 section-2-card text-center px-14 my-8">
 							<h3 className="font-redrose text-3xl  mt-10 font-bold" >The Hyperscale  <br/> Community</h3>

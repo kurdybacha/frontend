@@ -4,44 +4,47 @@ const ampersand = '&'
 const Section3 = () => (
 	<div className="bg-[#160A2F] py-32 px-8">
 		<div className="flex flex-col justify-center items-center">
-			<div className="flex bg-white w-48 h-10 rounded-sm justify-center items-center font-semibold">
-				Application Process
-			</div>
 			<div className="my-8">
-				<h2 className="font-redrose text-5xl text-center  text-gray-100">Get going in days instead of months</h2>
+				<h2 className="font-redrose text-5xl text-center  text-gray-100">Application Process</h2>
 			</div>
 			<div className="text-white text-2xl">{text}</div>
 		</div>
-		<div className="flex justify-evenly flex-wrap py-28">
-			<img src="/section3/diagram.svg" />
+		<div className="flex justify-evenly space-x-5 flex-wrap pt-28">
+			<div className="max-w-xl">
+				<img src="/section3/2-Hero-image.png" />
+			</div>
 			<div className="flex flex-col">
 				<div className="flex items-center my-8">
-					<img src="/section3/apply.svg" width={60} />
+					{/* <img src="/section3/apply.svg" width={60} /> */}
+					<div className="text-8xl font-redrose text-gray-100 pr-5">1.</div>
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">APPLY</div>
 						<div className="text-white">In just 15 minutes</div>
 					</div>
 				</div>
 				<div className="flex items-center my-8">
-					<img src="/section3/10-Review.png" width={60} />
+					{/* <img src="/section3/10-Review.png" width={60} /> */}
+					<div className="text-8xl font-redrose text-gray-100">2.</div>
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">REVIEW {ampersand} ASYNC INTERVIEW</div>
 						<div className="text-white">We review your application and progress it if it excites us.</div>
 					</div>
 				</div>
 				<div className="flex items-center my-8">
-					<img src="/section3/call.svg" width={60} />
+					{/* <img src="/section3/call.svg" width={60} /> */}
+					<div className="text-8xl font-redrose text-gray-100">3.</div>
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">CALL</div>
-						<div className="text-white">A 15 minute call is the final process in the application.</div>
+						<div className="text-white">A 15 minute call with core founders and members.</div>
 					</div>
 				</div>
 				<div className="flex items-center my-8">
-					<img src="/section3/logo.svg" width={60} />
+					{/* <img src="/section3/logo.svg" width={60} /> */}
+					<div className="text-8xl font-redrose text-gray-100">4.</div>
 					<div className="flex flex-col ml-8 w-60">
-						<div className="text-[#BAC4FA] font-bold">DD {ampersand} FUNDING</div>
+						<div className="text-[#BAC4FA] font-bold">FUNDING</div>
 						<div className="text-white">
-							We carry out Due Dilligence and then fund your project. Welcome to the Hyperscale ecosystem.
+							You&apos;re funded! Welcome to the Hyperscale ecosystem! Enjoy the community and all the tools we&apos;re building for you.
 						</div>
 					</div>
 				</div>
