@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const text = 'Receive up to $1M from. Apply in 15 minutes and you’ll recieve a decision as soon as 1-week'
+const text = 'Receive up to $1M funding. Apply in 15 minutes and you’ll recieve a decision within a few days'
 const links = ['https://airtable.com/shrLFCXD7BQXUg97K']
 
 const Section5 = () => (

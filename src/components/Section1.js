@@ -9,7 +9,7 @@ const links = [
 ]
 
 const Section1 = () => (
-	<div className="bg-no-repeat bg-cover bg-[#160A2F]" style={{ backgroundImage: "url('/section1/bg.svg')" }}>
+	<div className="bg-no-repeat bg-cover bg-[#160A2F]">
 		<Header />
 		<div className="flex flex-col-reverse lg:flex-row justify-evenly items-center space-x-3 px-8 md:px-20 pt-16 pb-32 lg:py-32">
 			<div className="flex flex-col max-w-3xl mt-12">
@@ -23,7 +23,7 @@ const Section1 = () => (
 					</a>
 				</Link>
 			</div>
-			<div className="mx-auto md:min-w-0 md:max-w-lg lg:max-w-2xl">
+			<div className="mx-auto max-w-md md:min-w-0 md:max-w-lg lg:max-w-2xl">
 				<img src="/section1/diagram.svg"/>
 			</div>
 		</div>
