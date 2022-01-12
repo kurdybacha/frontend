@@ -66,3 +66,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.bg-banner {
+    background: rgb(22,10,47);
+    background: linear-gradient(90deg, rgba(22,10,47,1) 30%, rgba(43,36,57,1) 100%);
+}
