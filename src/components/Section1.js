@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Header from '../components/Header';
 
-const text = 'Receive funding & join the ecosystem in <1W'
+const text = 'Receive up to $1M in funding and the benefits of the Hyperscale ecosystem in a matter of days.'
 const links = [
 	'https://www.twitter.com/HyperscaleFund',
 	'https://discord.gg/7CGPQ8fWHt',
@@ -23,8 +23,8 @@ const Section1 = () => (
 					</a>
 				</Link>
 			</div>
-			<div className="mx-auto md:min-w-0 md:max-w-lg lg:max-w-xl">
-				<img src="/section1/2-Hero-image.png"/>
+			<div className="mx-auto md:min-w-0 md:max-w-lg lg:max-w-2xl">
+				<img src="/section1/diagram.svg"/>
 			</div>
 		</div>
 	</div>
