@@ -13,30 +13,30 @@ const Section3 = () => (
 			<div className="max-w-xl">
 				<img src="/section3/2-Hero-image.png" />
 			</div>
-			<div className="flex flex-col">
-				<div className="flex items-center my-8 justify-between">
+			<div className="flex flex-col ">
+				<div className="flex items-center my-8  justify-between mr-3">
 					<div className="text-8xl font-redrose text-gray-100">1.</div>
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">APPLY</div>
 						<div className="text-white">In just 15 minutes</div>
 					</div>
 				</div>
-				<div className="flex items-center my-8 justify-between">
+				<div className="flex items-center my-8 justify-between mr-3">
 					<div className="text-8xl font-redrose text-gray-100">2.</div>
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">REVIEW {ampersand} ASYNC INTERVIEW</div>
 						<div className="text-white">We review your application and progress it if it excites us.</div>
 					</div>
 				</div>
-				<div className="flex items-center my-8 justify-between">
+				<div className="flex items-center my-8 justify-between mr-3">
 					<div className="text-8xl font-redrose text-gray-100">3.</div>
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">CALL</div>
 						<div className="text-white">A 15 minute call with core founders and members.</div>
 					</div>
 				</div>
-				<div className="flex items-center my-8 justify-between">
-					<div className="text-8xl font-redrose text-gray-100">4.</div>
+				<div className="flex items-center my-8 justify-between mr-3">
+					<div className="text-8xl font-redrose text-gray-100 ">4.</div>
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">FUNDING</div>
 						<div className="text-white">
