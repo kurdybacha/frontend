@@ -31,7 +31,7 @@ const Section2 = () => (
 					</div>
 					<Link href={links[0]}>
 						<a target="_blank">
-						 <div className='offset-border  border-black rounded-lg bg-[#BAC4FA] '><p className='p-3 font-redrose text-xl font-bold'>Find out more</p></div>
+						 <div className='offset-border border-black rounded-lg bg-[#BAC4FA] '><p className='p-3 font-redrose text-xl font-bold'>Find out more</p></div>
 						</a>
 					</Link>
 				</div>
