@@ -9,12 +9,12 @@ const Section3 = () => (
 			</div>
 			<div className="text-white text-2xl">{text}</div>
 		</div>
-		<div className="flex justify-evenly space-x-5 flex-wrap pt-28">
+		<div className="container mx-auto flex justify-between space-x-5 flex-wrap pt-28 px-4 xl:px-32">
 			<div className="max-w-xl">
 				<img src="/section3/2-Hero-image.png" />
 			</div>
 			<div className="flex flex-col ">
-				<div className="flex items-center my-8  justify-between mr-3">
+				<div className="flex items-center my-8 justify-between mr-3">
 					<div className="text-8xl font-redrose text-gray-100">1.</div>
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">APPLY</div>
