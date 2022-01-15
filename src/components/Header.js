@@ -14,7 +14,7 @@ const links = [
 
 const Header = () => (
 	<nav>
-      	<Popover className="flex items-center justify-items-center justify-between pt-4 mx-4 md:mx-20">
+      	<Popover className="container flex items-center justify-between p-4 md:px-8 mx-auto">
 			<Link href="/">
 				<a className="flex items-center">
 					<img src="/logo.svg" width="60" />

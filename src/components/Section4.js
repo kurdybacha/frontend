@@ -8,9 +8,8 @@ const paragraph7 = `Founders don't just receive funding. They gain access to an 
 
 const Section4 = () => (
 	<div className="bg-[#160A2F] p-8 md:p-20 relative">
-		<img src="/coins/token3.svg" className="absolute left-32 -top-4" />
-		<div className="bg-[#EBE8E3] py-24 px-10 md:px-20 rounded">
-			{/* <img src="/section4/title.svg" className="mb-12" /> */}
+		<img src="/coins/token3.svg" className="absolute left-64 -top-4" />
+		<div className="container mx-auto bg-[#EBE8E3] rounded py-24 px-6 xl:px-32">		
 			<h2 className="font-redrose text-5xl">Vision</h2>
 			<div className="my-6">{paragraph1}</div>
 			<div className="my-6">{paragraph2}</div>
