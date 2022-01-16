@@ -7,9 +7,10 @@ const paragraph6 = `Our initial ecosystem—tooling DAOs—will use DAOs outside
 const paragraph7 = `Founders don't just receive funding. They gain access to an ecosystem of DAOs to work with, a support network of founders, and the ecosystem's talent network. The Hyperscale ecosystem is ready to assist with top-tier developers, designers, governance experts, legal advisors, & much more! Contributors can solve problems for the new economy and are rewarded with tokens.`
 
 const Section4 = () => (
-	<div className="bg-[#160A2F] p-8 md:p-20 relative">
-		<img src="/coins/token3.svg" className="absolute left-64 -top-4" />
-		<div className="container mx-auto bg-[#EBE8E3] rounded py-24 px-6 xl:px-32">		
+	<div className="bg-[#160A2F] p-8 relative">
+		<div className="container mx-auto bg-[#EBE8E3] rounded py-24 px-10 xl:px-32">		
+			<img src="/coins/token3.svg" className="absolute -translate-x-1/2 left-1/2 -top-16 lg:hidden" />
+			<img src="/coins/token3.svg" className="absolute hidden lg:block -top-16" />
 			<h2 className="font-redrose text-5xl">Vision</h2>
 			<div className="my-6">{paragraph1}</div>
 			<div className="my-6">{paragraph2}</div>
