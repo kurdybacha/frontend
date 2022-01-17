@@ -4,7 +4,6 @@ import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Fragment } from "react";
 
-const text = 'Receive funding & join the ecosystem in <1W'
 const links = [
 	'https://www.twitter.com/HyperscaleFund',
 	'https://discord.gg/7CGPQ8fWHt',
@@ -17,8 +16,9 @@ const Header = () => (
       	<Popover className="container mx-auto flex items-center justify-between py-6">
 			<Link href="/">
 				<a className="flex items-center">
-					<img src="/logo.svg" width="60" />
-					<div className="text-white text-3xl font-semibold ml-4">Hyperscale</div>
+					{/* <img src="/logo.svg" width="60" />
+					<div className="text-white text-3xl font-semibold ml-4">Hyperscale</div> */}
+					<img src="/header/logo.svg" />
 				</a>
 			</Link>
 			{/* Desktop Navigation */}
