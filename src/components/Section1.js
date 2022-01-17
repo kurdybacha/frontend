@@ -12,7 +12,7 @@ const Section1 = () => (
 	<div className="bg-no-repeat bg-cover bg-[#1602AS] pb-16 px-6 md:px-10" style={{ backgroundImage : "url('./section1/background.svg')" }}>
 		<Header />
 		<div className="container mx-auto flex flex-col-reverse lg:flex-row justify-between items-center space-x-2 pt-16 pb-32 lg:py-24 xl:px-32">
-			<div className="flex flex-col max-w-3xl mt-12">
+			<div className="flex flex-col mt-12">
 				<h1 className="font-redrose text-gray-100 font-bold text-6xl xl:text-8xl">An ecosystem of <span className="hs-gradient">web3</span> projects</h1>
 				<div className="text-white text-2xl my-12">{text}</div>
 				<Link href={links[2]}>
