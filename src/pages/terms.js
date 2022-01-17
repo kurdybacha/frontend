@@ -1,8 +1,6 @@
 // components
-import Meta from '../components/Meta'
 import Header from '../components/Header';
 import Footer from '../components/Footer'
-import Link from 'next/link'
 
 const para1 = "Welcome to the Hyperscale website (including all subdomains and community communications systems, the “Site”), which is operated by [Corporate Entity] and its affiliates (collectively, “Hyperscale”, “Company”, “we”, “us” and/or “our”). Certain features of the Site may be subject to additional privacy policies, guidelines, terms, or rules, which will be posted on the Site in connection with such features. All such additional terms, guidelines, and rules are incorporated by reference into these Terms."
 const para2 = "THESE TERMS OF USE (THESE “TERMS”) SET FORTH THE LEGALLY BINDING TERMS AND CONDITIONS THAT GOVERN YOUR USE OF THE SITE. BY ACCESSING OR USING THE SITE, YOU ARE ACCEPTING THESE TERMS (ON BEHALF OF YOURSELF OR THE ENTITY THAT YOU REPRESENT), AND YOU REPRESENT AND WARRANT THAT YOU HAVE THE RIGHT, AUTHORITY, AND CAPACITY TO ENTER INTO THESE TERMS (ON BEHALF OF YOURSELF OR THE ENTITY THAT YOU REPRESENT). YOU MAY NOT ACCESS OR USE THE SITE OR ACCEPT THE TERMS IF YOU ARE NOT AT LEAST 18 YEARS OLD. IF YOU DO NOT AGREE WITH ALL OF THE PROVISIONS OF THESE TERMS, DO NOT ACCESS AND/OR USE THE SITE."
@@ -75,13 +73,6 @@ const para68 = "Contact Information for Notice:"
 const para69 = ""
 
 
-
-const links = [
-	'https://www.twitter.com/HyperscaleFund',
-	'https://discord.gg/7CGPQ8fWHt',
-	'https://airtable.com/shrLFCXD7BQXUg97K',
-]
-
 const Terms = () => (
 	<div>
 		<div className="bg-no-repeat bg-cover bg-[#1602AS] pb-16 px-6 md:px-10" style={{ backgroundImage : "url('./section1/background.svg')" }}>
@@ -107,7 +98,7 @@ const Terms = () => (
 						<div className="my-6">{para15}</div>
 						<div className="my-6">{para16}</div>
 						<div className="my-6">{para17}</div>
-						<div className="my-6">{para18}</div>
+						<div className="my-6">{para1}</div>
 						<div className="my-6">{para19}</div>
 						<div className="my-6">{para20}</div>
 						<div className="my-6">{para21}</div>

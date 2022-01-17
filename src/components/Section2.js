@@ -33,7 +33,16 @@ const Section2 = () => (
 					</div>
 					<Link href={links[0]}>
 						<a target="_blank">
-						 <div className='offset-border border-black rounded-lg bg-[#BAC4FA] '><p className='p-3 font-redrose text-xl font-bold'>Find out more</p></div>
+						 <div className="offset-border border-black rounded bg-[#BAC4FA] py-2 px-6 text-lg font-semibold">
+						 	Apply to Hyperscale
+						 </div>
+						</a>
+					</Link>
+					<Link href={links[0]}>
+						<a target="_blank">
+						 <div className="mt-6 py-2 px-6 text-lg">
+						 	Learn more
+						 </div>
 						</a>
 					</Link>
 				</div>
