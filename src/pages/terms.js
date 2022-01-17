@@ -107,7 +107,7 @@ const Terms = () => (
 						<div className="my-6">{para15}</div>
 						<div className="my-6">{para16}</div>
 						<div className="my-6">{para17}</div>
-						<div className="my-6">{para18}</div>
+						<div className="my-6">{para1}</div>
 						<div className="my-6">{para19}</div>
 						<div className="my-6">{para20}</div>
 						<div className="my-6">{para21}</div>
