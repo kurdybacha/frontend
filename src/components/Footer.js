@@ -13,37 +13,46 @@ const links = [
 
 const Footer = () => (
 	<div className="w-full bg-[#100528] px-8">
-		<div className="container mx-auto flex flex-row flex-wrap items-center py-8 relative">			
-			<div className="w-full lg:w-1/2">
-				<img src="/footer/Footer-logo.svg" />
+		<div className="container mx-auto flex flex-wrap justify-between items-center py-8">			
+			<div className="w-full lg:w-1/3 flex justify-center lg:justify-start pb-8 lg:pb-0">
+				<img src="/footer/Footer-logo.svg" className="w-40 lg:w-min"/>
 			</div> 
-			<div className="w-full lg:w-1/2 flex justify-centerfont-light text-white/70">
+			<div className="w-full lg:w-auto flex justify-evenly lg:justify-end pb-8 lg:pb-0 font-light text-white/70">
 				<Link href={links[0]}>
-					<a>
+					<a className="mx-4" target="_blank">
 						<div className="">FAQ</div>
 					</a>
 				</Link>
-				<div className="text-[#FEDB9E] mx-4"></div>
 				<Link href={links[1]}>
-					<a target="_blank">
+					<a className="mx-4" target="_blank">
 						<div className="">Twitter</div>
 					</a>
 				</Link>
-				<div className="text-[#FEDB9E] mx-4"></div>
 				<Link href={links[2]}>
-					<a target="_blank">
+					<a className="mx-4" target="_blank">
 						<div className="">Discord</div>
 					</a>
 				</Link>
-				<div className="text-[#FEDB9E] mx-4"></div>
 				<Link href={links[4]}>
-					<a>
+					<a className="mx-4 hidden lg:block">
 						<div className="">Privacy Policy</div>
 					</a>
 				</Link>
-				<div className="text-[#FEDB9E] mx-4"></div>
 				<Link href={links[5]}>
-					<a>
+					<a className="mx-4 hidden lg:block">
+						<div className="">Terms of Service</div>
+					</a>
+				</Link>
+			</div>
+			{/* Mobile only */}
+			<div className="w-full flex justify-evenly lg:hidden text-xs text-white/70 mt-8">
+				<Link href={links[4]}>
+					<a className="">
+						<div className="">Privacy Policy</div>
+					</a>
+				</Link>
+				<Link href={links[5]}>
+					<a className="">
 						<div className="">Terms of Service</div>
 					</a>
 				</Link>
