@@ -16,8 +16,6 @@ const Header = () => (
       	<Popover className="container mx-auto flex items-center justify-between py-6">
 			<Link href="/">
 				<a className="flex items-center">
-					{/* <img src="/logo.svg" width="60" />
-					<div className="text-white text-3xl font-semibold ml-4">Hyperscale</div> */}
 					<img src="/header/logo.svg" />
 				</a>
 			</Link>
