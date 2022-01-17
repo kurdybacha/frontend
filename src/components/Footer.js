@@ -3,7 +3,7 @@ import Link from 'next/link'
 const text = 'Hyperscale'
 const separator = '//'
 const links = [
-	'https://www.hyperscalefund.com',
+	'/',
 	'https://www.twitter.com/HyperscaleFund',
 	'https://discord.gg/7CGPQ8fWHt',
 	'https://airtable.com/shrLFCXD7BQXUg97K',
@@ -19,7 +19,7 @@ const Footer = () => (
 			</div> 
 			<div className="w-full lg:w-auto flex justify-evenly lg:justify-end pb-8 lg:pb-0 font-light text-white/70">
 				<Link href={links[0]}>
-					<a className="mx-4" target="_blank">
+					<a className="mx-4">
 						<div className="">FAQ</div>
 					</a>
 				</Link>

@@ -7,9 +7,9 @@ const Section3 = () => (
 			<div className="my-8">
 				<h2 className="font-redrose text-5xl text-center  text-gray-100">Application Process</h2>
 			</div>
-			<div className="text-white text-2xl">{text}</div>
+			<div className="text-white text-xl text-center">{text}</div>
 		</div>
-		<div className="container mx-auto flex flex-wrap justify-center lg:justify-between space-x-5 pt-28 px-4">
+		<div className="container mx-auto flex flex-wrap justify-center lg:justify-between space-x-5 pt-28">
 			<div className="max-w-sm lg:max-w-lg xl:max-w-2xl">
 				<img src="/section3/2-Hero-image.png" />
 			</div>
