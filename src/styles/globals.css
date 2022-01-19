@@ -85,3 +85,18 @@
 	background: url('/section1/Noise.gif');
 	pointer-events: none;
 }
+
+.markdown p {
+	margin-bottom: 18px;
+}
+
+.markdown ul {
+	list-style-type: disc;
+	list-style-position: inside;
+	margin-bottom: 18px;
+}
+
+.markdown table {
+	margin-bottom: 18px;
+	font-size: 14px;
+}

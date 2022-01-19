@@ -37,12 +37,6 @@ const Terms = ({ termsHtml }) => (
 			</div>
 		</div>
 		<Footer />
-
-		<style global jsx>{`
-			p {
-				margin-bottom: 18px;
-			}
-		`}</style>
 	</div>
 )
 

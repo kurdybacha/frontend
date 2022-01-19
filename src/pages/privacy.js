@@ -46,21 +46,6 @@ const Privacy = ({ privacyHtml }) => (
 			</div>
 		</div>
 		<Footer />
-
-		<style global jsx>{`
-			p {
-				margin-bottom: 18px;
-			}
-			ul {
-				list-style-type: disc;
-				list-style-position: inside;
-				margin-bottom: 18px;
-			}
-			table {
-				margin-bottom: 18px;
-				font-size: 14px;
-			}
-		`}</style>
 	</div>
 )
 
