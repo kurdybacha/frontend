@@ -5,83 +5,83 @@
 @tailwind utilities;
 
 @layer utilities {
-    .font-thin {
-        font-variation-settings: 'wght' 100;
-    }
-    .font-extralight {
-        font-variation-settings: 'wght' 200;
-    }
-    .font-light {
-        font-variation-settings: 'wght' 300;
-    }
-    .font-normal {
-        font-variation-settings: 'wght' 400;
-    }
-    .font-medium {
-        font-variation-settings: 'wght' 500;
-    }
-    .font-semibold {
-        font-variation-settings: 'wght' 600;
-    }
-    .font-bold {
-        font-variation-settings: 'wght' 700;
-    }
-    .font-extrabold {
-        font-variation-settings: 'wght' 800;
-    }
-    .font-black {
-        font-variation-settings: 'wght' 900;
-    }
+	.font-thin {
+		font-variation-settings: 'wght' 100;
+	}
+	.font-extralight {
+		font-variation-settings: 'wght' 200;
+	}
+	.font-light {
+		font-variation-settings: 'wght' 300;
+	}
+	.font-normal {
+		font-variation-settings: 'wght' 400;
+	}
+	.font-medium {
+		font-variation-settings: 'wght' 500;
+	}
+	.font-semibold {
+		font-variation-settings: 'wght' 600;
+	}
+	.font-bold {
+		font-variation-settings: 'wght' 700;
+	}
+	.font-extrabold {
+		font-variation-settings: 'wght' 800;
+	}
+	.font-black {
+		font-variation-settings: 'wght' 900;
+	}
 }
 
 @font-face {
-    font-family: Red Rose;
-    font-style: serif;
-    font-display: swap;
-    src: local('Redrose'), url('/RedRose.ttf') format('ttf');
+	font-family: Red Rose;
+	font-style: serif;
+	font-display: swap;
+	src: local('Redrose'), url('/RedRose.ttf') format('ttf');
 }
 
 .underlined {
-  background: linear-gradient(#FFD17F, #FFD17F) 0 var(--y-pos, 90%) / 100% var(--size, 12px) no-repeat;
+	background: linear-gradient(#ffd17f, #ffd17f) 0 var(--y-pos, 90%) / 100% var(--size, 12px) no-repeat;
 }
 
 .offset-border {
-    border: 3px solid #000000;
-    box-shadow: 6px 8px 0px #160a2f;
-    border-radius: 4px;
+	border: 3px solid #000000;
+	box-shadow: 6px 8px 0px #160a2f;
+	border-radius: 4px;
 }
 
-.offset-border h3{
-    line-height: 1.5;
+.offset-border h3 {
+	line-height: 1.5;
 }
-.offset-border img{
-    margin: auto;
+.offset-border img {
+	margin: auto;
 }
 
 .hs-gradient {
-    background: rgb(152,168,255);
-    background: -webkit-linear-gradient(30deg, rgba(152,168,255,1) 0%, rgba(254,219,158,1) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+	background: rgb(152, 168, 255);
+	background: -webkit-linear-gradient(30deg, rgba(152, 168, 255, 1) 0%, rgba(254, 219, 158, 1) 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .bg-curvature {
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("/section1/background.svg");
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('/section1/background.svg');
 }
 
 .noise {
-    content: "";
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    z-index: 1;
-    opacity: .03;
-    width: 100%;
-    height: 100%;
-    background: url("/section1/Noise.gif");
-    pointer-events: none;
+	content: '';
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	z-index: 1;
+	opacity: 0.03;
+	width: 100%;
+	height: 100%;
+	background: url('/section1/Noise.gif');
+	pointer-events: none;
 }
