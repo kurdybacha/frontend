@@ -21,12 +21,19 @@ export async function getStaticProps() {
 }
 
 const Terms = ({ termsHtml }) => (
-	<div className="bg-[#160A2F] md:p-8 relative">
-		<Header />
-		<div className="container mx-auto pt-8 xl:px-32">
-			<div className="container mx-auto bg-[#EBE8E3] rounded py-24 px-4 sm:px-10 xl:px-32">
-				<h2 className="font-redrose text-5xl pb-12">Terms of Use</h2>
-				<div className="markdown" dangerouslySetInnerHTML={{ __html: termsHtml }} />
+	<div
+		className="bg-no-repeat bg-cover bg-[#1602AS] pb-16 px-6 md:px-10"
+		style={{ backgroundImage: "url('./section1/background.svg')" }}
+	>
+		<div>
+			<Header />
+			<div className="bg-[#160A2F] md:p-8 relative">
+				<div className="container mx-auto pt-8 xl:px-32">
+					<div className="container mx-auto bg-[#EBE8E3] rounded py-24 px-4 sm:px-10 xl:px-32">
+						<h2 className="font-redrose text-5xl pb-12">Terms of Use</h2>
+						<div className="markdown" dangerouslySetInnerHTML={{ __html: termsHtml }} />
+					</div>
+				</div>
 			</div>
 		</div>
 		<Footer />
