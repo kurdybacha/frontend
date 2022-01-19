@@ -5,15 +5,8 @@ import html from 'remark-html'
 import remarkGfm from 'remark-gfm'
 import fs from 'fs'
 // components
-import Meta from '../components/Meta'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-
-const links = [
-	'https://www.twitter.com/HyperscaleFund',
-	'https://discord.gg/7CGPQ8fWHt',
-	'https://airtable.com/shrLFCXD7BQXUg97K',
-]
 
 export async function getStaticProps() {
 	const terms = fs.readFileSync('src/copy/privacy.md', 'utf8')
