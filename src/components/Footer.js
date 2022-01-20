@@ -12,7 +12,7 @@ const links = [
 ]
 
 const Footer = () => (
-	<div className="w-full bg-[#100528] px-8">
+	<div className="w-full bg-[#160A2F] px-8">
 		<div className="container mx-auto flex flex-wrap justify-between items-center py-8">			
 			<div className="w-full lg:w-1/3 flex justify-center lg:justify-start pb-8 lg:pb-0">
 				<img src="/footer/Footer-logo.svg" className="w-40 lg:w-min"/>
