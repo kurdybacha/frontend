@@ -24,10 +24,7 @@ export async function getStaticProps() {
 
 const Privacy = ({ privacyHtml }) => (
 	<div>
-		<div
-			className="bg-no-repeat bg-cover bg-[#160A2F] pb-16 px-6 md:px-10"
-			style={{ backgroundImage: "url('./section1/background.svg')" }}
-		>
+		<div className="bg-no-repeat bg-cover bg-[#160A2F] pb-16 px-6 md:px-10">
 			<Header />
 			<div className="bg-[#160A2F] md:p-8 relative">
 				<div className="container mx-auto pt-8 xl:px-32">
