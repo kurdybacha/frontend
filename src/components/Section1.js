@@ -9,10 +9,10 @@ const links = [
 ]
 
 const Section1 = () => (
-	<div className=" bg-[#160A2F] pb-16 lg:pb-32 px-6 md:px-10 bg-curvature">
+	<div className=" bg-[#160A2F] pb-8 px-6 md:px-10 bg-curvature">
 		<div className="noise"></div>
 		<Header />
-		<div className="container mx-auto flex flex-col-reverse md:flex-row justify-between items-center pt-8 md:pt-16 pb-32 lg:pb-24">
+		<div className="container mx-auto flex flex-col-reverse md:flex-row justify-between items-center pt-8 pb-32 lg:pb-24">
 			<div className="flex flex-col mt-12 lg:max-w-2xl">
 				<h1 className="font-redrose text-gray-100 font-bold text-4xl md:text-5xl xl:text-7xl 2xl:text-8xl">
 					An ecosystem of <span className="hs-gradient">web3</span> projects
