@@ -5,7 +5,7 @@ const links = ['https://airtable.com/shrLFCXD7BQXUg97K']
 
 const Section2 = () => (
 	<div className="relative bg-[#160A2F]">
-		<div className="bg-[#160A2F] md:px-10">
+		<div className="bg-[#160A2F] md:px-6">
 			<div className="container relative mx-auto bg-[#FEDB9E] py-24 rounded px-8 xl:px-16">
 				<img src="/coins/token.svg" className="absolute w-40 -top-20 -translate-x-1/2 left-1/2 lg:hidden" />
 				<img src="/coins/token.svg" className="absolute w-40 -top-20 hidden lg:block" />
