@@ -9,8 +9,7 @@ const links = [
 ]
 
 const Section1 = () => (
-	// This color is a typo, but does not show up on the actual site
-	<div className=" bg-[#1602AS] pb-16 lg:pb-32 px-6 md:px-10 bg-curvature">
+	<div className=" bg-[#160A2F] pb-16 lg:pb-32 px-6 md:px-10 bg-curvature">
 		<div className="noise"></div>
 		<Header />
 		<div className="container mx-auto flex flex-col-reverse lg:flex-row justify-between items-center space-x-2 pt-8 md:pt-16 pb-32 lg:pb-24 xl:pl-32">

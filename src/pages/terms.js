@@ -23,7 +23,7 @@ export async function getStaticProps() {
 const Terms = ({ termsHtml }) => (
 	<div>
 		<div
-			className="bg-no-repeat bg-cover bg-[#1602AS] pb-16 px-6 md:px-10"
+			className="bg-no-repeat bg-cover bg-[##160A2F] pb-16 px-6 md:px-10"
 			style={{ backgroundImage: "url('./section1/background.svg')" }}
 		>
 			<Header />
