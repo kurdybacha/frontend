@@ -40,7 +40,8 @@ const Section3 = () => (
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">FUNDING</div>
 						<div className="text-white">
-							You&apos;re funded! Welcome to the Hyperscale ecosystem! Enjoy the community and all the tools we&apos;re building for you.
+							You&apos;re funded! Welcome to the Hyperscale ecosystem! Enjoy the community and all the
+							tools we&apos;re building for you.
 						</div>
 					</div>
 				</div>
