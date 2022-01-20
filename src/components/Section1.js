@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import Header from '../components/Header';
+import Link from 'next/link'
+import Header from '../components/Header'
 
 const text = 'Receive up to $1M in funding and the benefits of the Hyperscale ecosystem in a matter of days.'
 const links = [
@@ -14,7 +14,9 @@ const Section1 = () => (
 		<Header />
 		<div className="container mx-auto flex flex-col-reverse lg:flex-row justify-between items-center space-x-2 pt-8 md:pt-16 pb-32 lg:pb-24 xl:px-32">
 			<div className="flex flex-col max-w-3xl mt-12">
-				<h1 className="font-redrose text-gray-100 font-bold text-4xl md:text-6xl xl:text-8xl">An ecosystem of <span className="hs-gradient">web3</span> projects</h1>
+				<h1 className="font-redrose text-gray-100 font-bold text-4xl md:text-6xl xl:text-8xl">
+					An ecosystem of <span className="hs-gradient">web3</span> projects
+				</h1>
 				<div className="text-white text-lg md:text-2xl my-6 md:my-12">{text}</div>
 				<Link href={links[2]}>
 					<a target="_blank">
@@ -25,7 +27,7 @@ const Section1 = () => (
 				</Link>
 			</div>
 			<div className="mx-auto max-w-xs px-8 md:min-w-0 lg:max-w-2xl">
-				<img src="/section1/diagram.svg"/>
+				<img src="/section1/hero-graphic.png" />
 			</div>
 		</div>
 	</div>
