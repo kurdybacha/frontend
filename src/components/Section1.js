@@ -12,7 +12,7 @@ const Section1 = () => (
 	<div className=" bg-[#160A2F] pb-16 lg:pb-32 px-6 md:px-10 bg-curvature">
 		<div className="noise"></div>
 		<Header />
-		<div className="container mx-auto flex flex-col-reverse lg:flex-row justify-between items-center space-x-2 pt-8 md:pt-16 pb-32 lg:pb-24 xl:pl-32">
+		<div className="container mx-auto flex flex-col-reverse lg:flex-row justify-between items-center space-x-2 pt-8 md:pt-16 pb-32 lg:pb-24 xl:px-32">
 			<div className="flex flex-col max-w-3xl mt-12">
 				<h1 className="font-redrose text-gray-100 font-bold text-4xl md:text-6xl xl:text-8xl">
 					An ecosystem of <span className="hs-gradient">web3</span> projects
