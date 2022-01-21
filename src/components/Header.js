@@ -103,7 +103,7 @@ const Header = () => (
 									</div>
 								</a>
 							</Link>
-							<Link href={links[0]}>
+							<Link href={links[2]}>
 								<a target="_blank">
 									<div className="offset-border block w-56 border-black rounded bg-[#BAC4FA] py-2 px-6 text-lg font-semibold">
 										Apply to Hyperscale
