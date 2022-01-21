@@ -21,7 +21,7 @@ const Section2 = () => (
 							</h3>
 							<img className="py-8" src="/section2/4-Fast-funding.png" />
 							<div className="text-lg	text-center px-2 mb-10">
-								Receive up to $1M funding. Apply in 15 minutes and you have a decision within a few days
+								Receive up to $1M funding. Apply in 15 minutes and get a decision within a few days
 							</div>
 						</div>
 						<div className="xl:w-[31%] md:max-w-2xl offset-border text-center px-8 my-8 sm:w-11/12 bg-[#EBE8E3]">
