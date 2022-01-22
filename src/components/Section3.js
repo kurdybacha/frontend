@@ -14,7 +14,7 @@ const Section3 = () => (
 				<img className="w-1/2 sm:w-full ml-auto mr-auto" src="/section3/2-Hero-image.png" />
 			</div>
 			<div className="flex flex-col justify-center">
-				<div className="flex items-center my-4 md:my- justify-between mr-3">
+				<div className="flex items-center my-4 md:my-8 justify-between mr-3">
 					<div className="text-8xl font-redrose text-gray-100">1.</div>
 					<div className="flex flex-col ml-8 w-60">
 						<div className="text-[#BAC4FA] font-bold">APPLY</div>
