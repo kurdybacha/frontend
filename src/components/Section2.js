@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const text = 'Hyperscale DAO helps you build and grow your project.'
-const links = ['https://airtable.com/shrLFCXD7BQXUg97K']
+const links = ['https://hyperscale.notion.site/Hyperscale-Knowledge-Base-6c8253dc64df4562bf4f258bbd206707']
 
 const Section2 = () => (
 	<div className="relative bg-[#160A2F]">

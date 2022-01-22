@@ -8,7 +8,7 @@ const links = [
 	'https://www.twitter.com/HyperscaleFund',
 	'https://discord.gg/7CGPQ8fWHt',
 	'https://airtable.com/shrLFCXD7BQXUg97K',
-	'',
+	'https://hyperscale.notion.site/Hyperscale-Knowledge-Base-6c8253dc64df4562bf4f258bbd206707',
 ]
 
 const Header = () => (
@@ -23,7 +23,7 @@ const Header = () => (
 			<div className="hidden lg:flex md:items-center space-x-0 text-redrose">
 				<Link href={links[3]}>
 					<a>
-						<div className="text-white mr-8 lg:mr-16">Knowledge base</div>
+						<div className="text-white mr-8 lg:mr-16">Knowledge Base</div>
 					</a>
 				</Link>
 				<Link href={links[0]}>
