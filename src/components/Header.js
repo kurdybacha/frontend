@@ -83,7 +83,7 @@ const Header = () => (
 						</div>
 						<div className="px-2 pt-2 pb-3 space-y-1">
 							<Link href={links[3]}>
-								<a>
+								<a target="_blank">
 									<div className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
 										Knowledge base
 									</div>
