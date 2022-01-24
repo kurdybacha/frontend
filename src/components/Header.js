@@ -22,7 +22,7 @@ const Header = () => (
 			{/* Desktop Navigation */}
 			<div className="hidden lg:flex md:items-center space-x-0 text-redrose">
 				<Link href={links[3]}>
-					<a>
+					<a target="_blank">
 						<div className="text-white mr-8 lg:mr-16">Knowledge Base</div>
 					</a>
 				</Link>
