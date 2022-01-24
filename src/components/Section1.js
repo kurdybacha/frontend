@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Header from '../components/Header'
-import links from "../lib/links.js":
+import links from '../lib/links.js'
 
 const text = 'Receive up to $1M in funding and the benefits of the Hyperscale ecosystem in a matter of days.'
 
