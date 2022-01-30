@@ -9,35 +9,35 @@ const Section3 = () => (
 			</div>
 			<div className="text-white text-xl text-center">{text}</div>
 		</div>
-		<div className="container mx-auto flex flex-wrap justify-center lg:justify-between space-x-5 pt-14 md:pt-28">
-			<div className="max-w-sm lg:max-w-lg xl:max-w-2xl">
-				<img className="w-1/2 sm:w-full ml-auto mr-auto" src="/section3/2-Hero-image.png" />
+		<div className="container mx-auto flex flex-wrap items-center justify-center xl:px-32 lg:justify-between pt-14 lg:pt-28">
+			<div className="hidden lg:block lg:w-[45%] items-center">
+				<img className="mx-auto max-w-md xl:max-w-lg" src="/section3/2-Hero-image.png" />
 			</div>
-			<div className="flex flex-col justify-center">
-				<div className="flex items-center my-4 md:my-8 justify-between mr-3">
-					<div className="text-8xl font-redrose text-gray-100">1.</div>
-					<div className="flex flex-col ml-8 w-60">
+			<div className="flex flex-col lg:w-[45%] justify-center items-center">
+				<div className="flex items-center my-4 md:my-8 justify-between">
+					<div className="text-8xl w-16 text-center font-redrose text-[#BAC4FA]">1</div>
+					<div className="flex flex-col ml-8 w-72">
 						<div className="text-[#BAC4FA] font-bold">APPLY</div>
 						<div className="text-white">In just 15 minutes</div>
 					</div>
 				</div>
-				<div className="flex items-center my-8 justify-between mr-3">
-					<div className="text-8xl font-redrose text-gray-100">2.</div>
-					<div className="flex flex-col ml-8 w-60">
+				<div className="flex items-center my-8 justify-between">
+					<div className="text-8xl w-16 text-center font-redrose text-[#BAC4FA]">2</div>
+					<div className="flex flex-col ml-8 w-72">
 						<div className="text-[#BAC4FA] font-bold">REVIEW {ampersand} ASYNC INTERVIEW</div>
-						<div className="text-white">We review your application and progress it if it excites us.</div>
+						<div className="text-white">We review your application and progress to an async interview it if it excites us.</div>
 					</div>
 				</div>
-				<div className="flex items-center my-8 justify-between mr-3">
-					<div className="text-8xl font-redrose text-gray-100">3.</div>
-					<div className="flex flex-col ml-8 w-60">
+				<div className="flex items-center my-8 justify-between">
+					<div className="text-8xl w-16 text-center font-redrose text-[#BAC4FA]">3</div>
+					<div className="flex flex-col ml-8 w-72">
 						<div className="text-[#BAC4FA] font-bold">CALL</div>
 						<div className="text-white">A 15 minute call with core founders and members.</div>
 					</div>
 				</div>
-				<div className="flex items-center my-8 justify-between mr-3">
-					<div className="text-8xl font-redrose text-gray-100 ">4.</div>
-					<div className="flex flex-col ml-8 w-60">
+				<div className="flex items-center my-8 justify-between">
+					<div className="text-8xl w-16 text-center font-redrose text-[#BAC4FA]">4</div>
+					<div className="flex flex-col ml-8 w-72">
 						<div className="text-[#BAC4FA] font-bold">FUNDING</div>
 						<div className="text-white">
 							You&apos;re funded! Welcome to the Hyperscale ecosystem! Enjoy the community and all the
