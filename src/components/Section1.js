@@ -1,12 +1,8 @@
 import Link from 'next/link'
 import Header from '../components/Header'
+import links from '../lib/links.js'
 
 const text = 'Receive up to $1M in funding and the benefits of the Hyperscale ecosystem in a matter of days.'
-const links = [
-	'https://www.twitter.com/HyperscaleFund',
-	'https://discord.gg/7CGPQ8fWHt',
-	'https://airtable.com/shrLFCXD7BQXUg97K',
-]
 
 const Section1 = () => (
 	<div className=" bg-[#160A2F] pb-8 lg:pb-16 px-6 md:px-10 bg-curvature">
@@ -17,7 +13,7 @@ const Section1 = () => (
 					An ecosystem of <span className="hs-gradient">web3</span> projects
 				</h1>
 				<div className="text-white text- md:text-xl lg: my-6 md:my-12">{text}</div>
-				<Link href={links[2]}>
+				<Link href={links.apply}>
 					<a target="_blank">
 						<div className="flex w-24 h-10 bg-[#BAC4FA] rounded-sm justify-center items-center font-semibold">
 							Apply

@@ -3,13 +3,7 @@ import Image from 'next/image'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { Fragment } from 'react'
-
-const links = [
-	'https://www.twitter.com/HyperscaleFund',
-	'https://discord.gg/7CGPQ8fWHt',
-	'https://airtable.com/shrLFCXD7BQXUg97K',
-	'https://hyperscale.notion.site/Hyperscale-Knowledge-Base-6c8253dc64df4562bf4f258bbd206707',
-]
+import links from '../lib/links'
 
 const Header = () => (
 	<nav className="container mx-auto w-full z-30 xl:px-32">
@@ -21,22 +15,22 @@ const Header = () => (
 			</Link>
 			{/* Desktop Navigation */}
 			<div className="hidden lg:flex md:items-center space-x-0 text-redrose">
-				<Link href={links[3]}>
-					<a>
+				<Link href={links.knowledgeBase}>
+					<a target="_blank">
 						<div className="text-white mr-8 lg:mr-16">Knowledge Base</div>
 					</a>
 				</Link>
-				<Link href={links[0]}>
+				<Link href={links.twitter}>
 					<a target="_blank">
 						<div className="text-white mr-8 lg:mr-16">Twitter</div>
 					</a>
 				</Link>
-				<Link href={links[1]}>
+				<Link href={links.discord}>
 					<a target="_blank">
 						<div className="text-white mr-8 lg:mr-16">Discord</div>
 					</a>
 				</Link>
-				<Link href={links[2]}>
+				<Link href={links.apply}>
 					<a target="_blank">
 						<div className="flex w-24 h-10 bg-[#BAC4FA] rounded-sm justify-center items-center font-semibold">
 							Apply
@@ -82,28 +76,28 @@ const Header = () => (
 							</div>
 						</div>
 						<div className="px-2 pt-2 pb-3 space-y-1">
-							<Link href={links[3]}>
+							<Link href={links.knowledgeBase}>
 								<a target="_blank">
 									<div className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
 										Knowledge base
 									</div>
 								</a>
 							</Link>
-							<Link href={links[0]}>
+							<Link href={links.twitter}>
 								<a target="_blank">
 									<div className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
 										Twitter
 									</div>
 								</a>
 							</Link>
-							<Link href={links[1]}>
+							<Link href={links.discord}>
 								<a target="_blank">
 									<div className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
 										Discord
 									</div>
 								</a>
 							</Link>
-							<Link href={links[2]}>
+							<Link href={links.apply}>
 								<a target="_blank">
 									<div className="offset-border block w-56 border-black rounded bg-[#BAC4FA] py-2 px-6 text-lg font-semibold">
 										Apply to Hyperscale
