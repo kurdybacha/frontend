@@ -13,7 +13,7 @@ const Section2 = () => (
 				<img src="/coins/token.svg" className="absolute w-40 -top-20 -translate-x-1/2 left-1/2 lg:hidden" />
 				<img src="/coins/token.svg" className="absolute w-40 -top-20 left-28 ml-2 hidden lg:block" />
 				<img src="/coins/token2.svg" className="absolute w-28 -bottom-20 -translate-x-1/2 left-1/2 lg:hidden" />
-				<img src="/coins/token2.svg" className="absolute w-28 -bottom-20 mr-2 hidden lg:block lg:right-28" />
+				<img src="/coins/token2.svg" className="absolute w-28 -bottom-20 mr-2hidden lg:block lg:right-28" />
 				<div className="flex flex-col justify-between items-center">
 					<h2 className="font-redrose text-5xl text-center">Join the Hyperscale Ecosystem</h2>
 					<div className="text-xl mt-4 text-center">{text}</div>
@@ -22,7 +22,7 @@ const Section2 = () => (
 							<h3 className="font-redrose text-3xl  mt-10 font-bold">
 								Hyper Fast <br /> Funding
 							</h3>
-							<img className="py-8 w-1/2 sm:w-auto" src="/section2/4-Fast-funding.png" />
+							<img className="py-8 w-1/2 sm:w-auto lg:w-2/3" src="/section2/4-Fast-funding.png" />
 							<div className="text-lg	text-center px-2 mb-10">
 								Receive up to $1M funding. Apply in 15 minutes and get a decision within a few days
 							</div>
@@ -31,7 +31,7 @@ const Section2 = () => (
 							<h3 className="font-redrose text-3xl  mt-10 font-bold">
 								The Hyperscale <br /> Community
 							</h3>
-							<img className="py-8 w-1/2 sm:w-auto" src="/section2/5-Community.png" />
+							<img className="py-8 w-1/2 sm:w-auto lg:w-2/3" src="/section2/5-Community.png" />
 							<div className="text-lg	text-center px-2 mb-10">
 								Community of high-performing DAOs, founders, web3 experts, and like-minded peers
 							</div>
@@ -40,7 +40,7 @@ const Section2 = () => (
 							<h3 className="font-redrose text-3xl  mt-10 font-bold">
 								The Talent <br /> Network
 							</h3>
-							<img className="py-8 w-1/2 sm:w-auto" src="/section2/6-Talent-network.png" />
+							<img className="py-8 w-1/2 sm:w-auto lg:w-2/3" src="/section2/6-Talent-network.png" />
 							<div className="text-lg text-center px-2 mb-10">
 								Find top-tier developers, designers, governance experts, &#38; legal advisors
 							</div>
