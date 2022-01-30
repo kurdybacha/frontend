@@ -17,31 +17,31 @@ const Section2 = () => (
 				<div className="flex flex-col justify-between items-center">
 					<h2 className="font-redrose text-5xl text-center">Join the Hyperscale Ecosystem</h2>
 					<div className="text-xl mt-4 text-center">{text}</div>
-					<div className="flex justify-center xl:justify-between flex-wrap 2xl:px-16 my-16">
-						<div className="xl:w-[31%]  md:max-w-2xl offset-border text-center px-8 my-8 sm:w-11/12 bg-[#EBE8E3]">
+					<div className="flex justify-center lg:justify-between flex-wrap 2xl:px-16 my-16">
+						<div className="md:max-w-2xl lg:w-[31%] offset-border text-center px-8 lg:px-4 xl:px-8 my-8 sm:w-11/12 bg-[#EBE8E3]">
 							<h3 className="font-redrose text-3xl  mt-10 font-bold">
 								Hyper Fast <br /> Funding
 							</h3>
 							<img className="py-8 w-1/2 sm:w-auto lg:w-2/3" src="/section2/4-Fast-funding.png" />
-							<div className="text-lg	text-center px-2 mb-10">
+							<div className="text-lg lg:text-base xl:text-xl text-center px-2 mb-10">
 								Receive up to $1M funding. Apply in 15 minutes and get a decision within a few days
 							</div>
 						</div>
-						<div className="xl:w-[31%] md:max-w-2xl offset-border text-center px-8 my-8 sm:w-11/12 bg-[#EBE8E3]">
+						<div className="md:max-w-2xl lg:w-[31%] offset-border text-center px-8 lg:px-4 xl:px-8 my-8 sm:w-11/12 bg-[#EBE8E3]">
 							<h3 className="font-redrose text-3xl  mt-10 font-bold">
-								The Hyperscale <br /> Community
+								<span class="lg:hidden xl:inline">The</span> Hyperscale <br /> Community
 							</h3>
 							<img className="py-8 w-1/2 sm:w-auto lg:w-2/3" src="/section2/5-Community.png" />
-							<div className="text-lg	text-center px-2 mb-10">
+							<div className="text-lg lg:text-base xl:text-xl text-center px-2 mb-10">
 								Community of high-performing DAOs, founders, web3 experts, and like-minded peers
 							</div>
 						</div>
-						<div className="xl:w-[31%] md:max-w-2xl offset-border text-center px-8 my-8 sm:w-11/12 bg-[#EBE8E3]">
+						<div className="md:max-w-2xl lg:w-[31%] offset-border text-center px-8 lg:px-4 xl:px-8 my-8 sm:w-11/12 bg-[#EBE8E3]">
 							<h3 className="font-redrose text-3xl  mt-10 font-bold">
 								The Talent <br /> Network
 							</h3>
 							<img className="py-8 w-1/2 sm:w-auto lg:w-2/3" src="/section2/6-Talent-network.png" />
-							<div className="text-lg text-center px-2 mb-10">
+							<div className="text-lg lg:text-base xl:text-xl text-center px-2 mb-10">
 								Find top-tier developers, designers, governance experts, &#38; legal advisors
 							</div>
 						</div>
