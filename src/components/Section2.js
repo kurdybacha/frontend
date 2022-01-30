@@ -13,7 +13,7 @@ const Section2 = () => (
 				<img src="/coins/token.svg" className="absolute w-40 -top-20 -translate-x-1/2 left-1/2 lg:hidden" />
 				<img src="/coins/token.svg" className="absolute w-40 -top-20 left-28 ml-2 hidden lg:block" />
 				<img src="/coins/token2.svg" className="absolute w-28 -bottom-20 -translate-x-1/2 left-1/2 lg:hidden" />
-				<img src="/coins/token2.svg" className="absolute w-28 -bottom-20 mr-2hidden lg:block lg:right-28" />
+				<img src="/coins/token2.svg" className="absolute w-28 -bottom-20 mr-2 hidden lg:block lg:right-28" />
 				<div className="flex flex-col justify-between items-center">
 					<h2 className="font-redrose text-5xl text-center">Join the Hyperscale Ecosystem</h2>
 					<div className="text-xl mt-4 text-center">{text}</div>
