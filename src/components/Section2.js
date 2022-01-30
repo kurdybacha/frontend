@@ -9,11 +9,11 @@ const links = [
 const Section2 = () => (
 	<div className="relative bg-[#160A2F]">
 		<div className="bg-[#160A2F] md:px-6">
-			<div className="container relative mx-auto bg-[#FEDB9E] py-24 rounded px-8 xl:px-16">
+			<div className="container mx-auto relative bg-[#FEDB9E] py-24 rounded px-8 xl:px-16">
 				<img src="/coins/token.svg" className="absolute w-40 -top-20 -translate-x-1/2 left-1/2 lg:hidden" />
-				<img src="/coins/token.svg" className="absolute w-40 -top-20 hidden lg:block" />
+				<img src="/coins/token.svg" className="absolute w-40 -top-20 left-28 ml-2 hidden lg:block" />
 				<img src="/coins/token2.svg" className="absolute w-28 -bottom-20 -translate-x-1/2 left-1/2 lg:hidden" />
-				<img src="/coins/token2.svg" className="absolute w-28 -bottom-20 hidden lg:block lg:right-16" />
+				<img src="/coins/token2.svg" className="absolute w-28 -bottom-20 mr-2 hidden lg:block lg:right-28" />
 				<div className="flex flex-col justify-between items-center">
 					<h2 className="font-redrose text-5xl text-center">Join the Hyperscale Ecosystem</h2>
 					<div className="text-xl mt-4 text-center">{text}</div>

@@ -12,7 +12,7 @@ const links = [
 ]
 
 const Header = () => (
-	<nav className="w-full z-30">
+	<nav className="container mx-auto w-full z-30 xl:px-32">
 		<Popover className="container mx-auto flex items-center justify-between py-6">
 			<Link href="/">
 				<a className="flex items-center">
