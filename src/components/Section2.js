@@ -29,7 +29,7 @@ const Section2 = () => (
 						</div>
 						<div className="md:max-w-2xl lg:w-[31%] offset-border text-center px-8 lg:px-4 xl:px-8 my-8 sm:w-11/12 bg-[#EBE8E3]">
 							<h3 className="font-redrose text-3xl  mt-10 font-bold">
-								<span class="lg:hidden xl:inline">The</span> Hyperscale <br /> Community
+								<span className="lg:hidden xl:inline">The</span> Hyperscale <br /> Community
 							</h3>
 							<img className="py-8 w-1/2 sm:w-auto lg:w-2/3" src="/section2/5-Community.png" />
 							<div className="text-lg lg:text-base xl:text-xl text-center px-2 mb-10">
