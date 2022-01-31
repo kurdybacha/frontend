@@ -50,7 +50,7 @@ const Section2 = () => (
 							</div>
 						</a>
 					</Link>
-					<Link href={links.knowledgeBase}>
+					<Link href={links.investmentProcess}>
 						<a target="_blank">
 							<div className="mt-6 py-2 px-6 text-lg">Learn more</div>
 						</a>
