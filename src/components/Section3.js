@@ -24,15 +24,15 @@ const Section3 = () => (
 				<div className="flex items-center my-8 justify-between">
 					<div className="text-8xl w-16 text-center font-redrose text-[#BAC4FA]">2</div>
 					<div className="flex flex-col ml-8 w-72">
-						<div className="text-[#BAC4FA] font-bold">REVIEW {ampersand} ASYNC INTERVIEW</div>
-						<div className="text-white">We review your application and progress to an async interview it if it excites us.</div>
+						<div className="text-[#BAC4FA] font-bold">CALL</div>
+						<div className="text-white">Virtual interview it if it excites us.</div>
 					</div>
 				</div>
 				<div className="flex items-center my-8 justify-between">
 					<div className="text-8xl w-16 text-center font-redrose text-[#BAC4FA]">3</div>
 					<div className="flex flex-col ml-8 w-72">
-						<div className="text-[#BAC4FA] font-bold">CALL</div>
-						<div className="text-white">A 15 minute call with core founders and members.</div>
+						<div className="text-[#BAC4FA] font-bold">DUE DILIGENCE</div>
+						<div className="text-white">Team asks for further information.</div>
 					</div>
 				</div>
 				<div className="flex items-center my-8 justify-between">
