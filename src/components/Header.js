@@ -17,7 +17,7 @@ const Header = () => (
 			<div className="hidden lg:flex md:items-center space-x-0 text-redrose">
 				<Link href={links.knowledgeBase}>
 					<a target="_blank">
-						<div className="text-white mr-8 lg:mr-16">Knowledge Base</div>
+						<div className="text-white mr-8 lg:mr-16">About</div>
 					</a>
 				</Link>
 				<Link href={links.twitter}>
