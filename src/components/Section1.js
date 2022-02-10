@@ -14,10 +14,11 @@ const Section1 = () => (
 				</h1>
 				<div className="text-white text- md:text-xl lg: my-6 md:my-12">{text}</div>
 				<Link href={links.apply}>
-					<a target="_blank">
-						<div className="flex w-24 h-10 bg-[#BAC4FA] rounded-sm justify-center items-center font-semibold">
-							Apply
-						</div>
+					<a
+						target="_blank"
+						className="flex w-24 h-10 bg-[#BAC4FA] rounded-sm justify-center items-center font-semibold"
+					>
+						Apply
 					</a>
 				</Link>
 			</div>
