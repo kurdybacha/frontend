@@ -3,7 +3,7 @@ import Header from "../components/Header"
 import links from "../lib/links.js"
 
 const text =
-  "Receive up to $1M in funding and the benefits of the Hyperscale ecosystem in a matter of days."
+  "Projects receive up to $1M in funding and the benefits of the Hyperscale ecosystem in a matter of days."
 
 const Section1 = () => (
   <div className=" bg-[#160A2F] pb-8 lg:pb-16 px-6 md:px-10 bg-curvature">
@@ -16,12 +16,12 @@ const Section1 = () => (
         <div className="text-white text- md:text-xl lg: my-6 md:my-12">
           {text}
         </div>
-        <Link href={links.apply}>
+        <Link href={links.discord}>
           <a
             target="_blank"
             className="flex w-24 h-10 bg-[#BAC4FA] rounded-sm justify-center items-center font-semibold"
           >
-            Apply
+            Discord
           </a>
         </Link>
       </div>

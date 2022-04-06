@@ -8,11 +8,6 @@ const Footer = () => (
         <img src="/footer/Footer-logo.svg" className="w-40 lg:w-min" />
       </div>
       <div className="w-full lg:w-auto flex justify-evenly lg:justify-end pb-8 lg:pb-0 font-light text-white/70">
-        <Link href={links.knowledgeBase}>
-          <a className="mx-4" target="_blank">
-            <div className="">About</div>
-          </a>
-        </Link>
         <Link href={links.twitter}>
           <a className="mx-4" target="_blank">
             <div className="">Twitter</div>

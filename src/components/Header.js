@@ -15,11 +15,6 @@ const Header = () => (
       </Link>
       {/* Desktop Navigation */}
       <div className="hidden lg:flex md:items-center space-x-0 text-redrose">
-        <Link href={links.knowledgeBase}>
-          <a target="_blank">
-            <div className="text-white mr-8 lg:mr-16">About</div>
-          </a>
-        </Link>
         <Link href={links.twitter}>
           <a target="_blank">
             <div className="text-white mr-8 lg:mr-16">Twitter</div>
@@ -27,13 +22,8 @@ const Header = () => (
         </Link>
         <Link href={links.discord}>
           <a target="_blank">
-            <div className="text-white mr-8 lg:mr-16">Discord</div>
-          </a>
-        </Link>
-        <Link href={links.apply}>
-          <a target="_blank">
             <div className="flex w-24 h-10 bg-[#BAC4FA] rounded-sm justify-center items-center font-semibold">
-              Apply
+              Discord
             </div>
           </a>
         </Link>
@@ -81,13 +71,6 @@ const Header = () => (
               </div>
             </div>
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <Link href={links.knowledgeBase}>
-                <a target="_blank">
-                  <div className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
-                    Knowledge base
-                  </div>
-                </a>
-              </Link>
               <Link href={links.twitter}>
                 <a target="_blank">
                   <div className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
@@ -99,13 +82,6 @@ const Header = () => (
                 <a target="_blank">
                   <div className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
                     Discord
-                  </div>
-                </a>
-              </Link>
-              <Link href={links.apply}>
-                <a target="_blank">
-                  <div className="offset-border block w-56 border-black rounded bg-[#BAC4FA] py-2 px-6 text-lg font-semibold">
-                    Apply to Hyperscale
                   </div>
                 </a>
               </Link>
