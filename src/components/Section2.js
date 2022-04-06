@@ -1,7 +1,7 @@
 import Link from "next/link"
 import links from "../lib/links"
 
-const text = "Hyperscale DAO helps you build and grow your project."
+const text = "Hyperscale DAO helps projects build and grow their project."
 
 const Section2 = () => (
   <div className="relative bg-[#160A2F]">
@@ -38,8 +38,8 @@ const Section2 = () => (
                 src="/section2/4-Fast-funding.png"
               />
               <div className="text-lg lg:text-base xl:text-xl text-center px-2 mb-10">
-                Receive up to $1M funding. Apply in 15 minutes and get a
-                decision within a few days
+                Projects receive up to $1M funding. They apply in 15 minutes and
+                get a decision within a few days
               </div>
             </div>
             <div className="md:max-w-2xl lg:w-[31%] offset-border text-center px-8 lg:px-4 xl:px-8 my-8 sm:w-11/12 bg-[#EBE8E3]">
@@ -65,21 +65,16 @@ const Section2 = () => (
                 src="/section2/6-Talent-network.png"
               />
               <div className="text-lg lg:text-base xl:text-xl text-center px-2 mb-10">
-                Find top-tier developers, designers, governance experts, &#38;
-                legal advisors
+                Projects find top-tier developers, designers, governance
+                experts, &#38; legal advisors
               </div>
             </div>
           </div>
-          <Link href={links.apply}>
+          <Link href={links.discord}>
             <a target="_blank">
               <div className="offset-border border-black rounded bg-[#BAC4FA] py-2 px-6 text-lg font-semibold">
-                Apply to Hyperscale
+                Join the Discord
               </div>
-            </a>
-          </Link>
-          <Link href={links.investmentProcess}>
-            <a target="_blank">
-              <div className="mt-6 py-2 px-6 text-lg">Learn more</div>
             </a>
           </Link>
         </div>
