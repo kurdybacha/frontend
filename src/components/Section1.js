@@ -3,7 +3,7 @@ import Header from "../components/Header"
 import links from "../lib/links.js"
 
 const text =
-  "Projects receive up to $1M in funding and the benefits of the Hyperscale ecosystem in a matter of days."
+  "Projects using crypto to solve real-world problems receive grants and the benefits of the Hyperscale network in a matter of days."
 
 const Section1 = () => (
   <div className=" bg-[#160A2F] pb-8 lg:pb-16 px-6 md:px-10 bg-curvature">
@@ -11,7 +11,8 @@ const Section1 = () => (
     <div className="container mx-auto flex flex-col-reverse md:flex-row justify-between items-center pt-8 pb-32 lg:pb-24 xl:px-32">
       <div className="flex flex-col mt-12 lg:max-w-2xl">
         <h1 className="font-redrose text-gray-100 font-bold text-4xl md:text-5xl xl:text-7xl 2xl:text-8xl">
-          An ecosystem of <span className="hs-gradient">web3</span> projects
+          Using <span className="hs-gradient">crypto</span> to solve{" "}
+          <span className="hs-gradient">real world problems</span>
         </h1>
         <div className="text-white text- md:text-xl lg: my-6 md:my-12">
           {text}
