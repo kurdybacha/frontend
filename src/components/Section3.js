@@ -1,5 +1,6 @@
 const text = "We get to a decision fast so you can focus on execution."
 const ampersand = "&"
+const quote = "'"
 
 const Section3 = () => (
   <div className="bg-[#160A2F] py-32 px-8">
@@ -28,9 +29,9 @@ const Section3 = () => (
             <div className="text-white">
               Email{" "}
               <span className="hs-gradient">apply@hyperscalefund.com</span> and
-              explain how what you're building is currently solving a real world
-              problem using crypto. Please attach any other useful information
-              (deck, website, social media, whitepaper, etc).
+              explain how what you{quote}re building is currently solving a real
+              world problem using crypto. Please attach any other useful
+              information (deck, website, social media, whitepaper, etc).
             </div>
           </div>
         </div>
@@ -41,8 +42,8 @@ const Section3 = () => (
           <div className="flex flex-col ml-8 w-72">
             <div className="text-[#BAC4FA] font-bold">CALL</div>
             <div className="text-white">
-              We'd like to know more about your project. We'll ask questions and
-              explore how we can assist.
+              We{quote}d like to know more about your project. We{quote}ll ask
+              questions and explore how we can assist.
             </div>
           </div>
         </div>
@@ -52,7 +53,7 @@ const Section3 = () => (
           </div>
           <div className="flex flex-col ml-8 w-72">
             <div className="text-[#BAC4FA] font-bold">GRANT</div>
-            <div className="text-white">You'll receive crypto!</div>
+            <div className="text-white">You{quote}ll receive crypto!</div>
           </div>
         </div>
         {/* <div className="flex items-center my-8 justify-between">
