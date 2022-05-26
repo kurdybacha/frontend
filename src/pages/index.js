@@ -9,13 +9,16 @@ import Footer from "../components/Footer"
 
 const Landing = () => (
   <div>
-    <Meta />
-    <Section1 />
+    <a href="https://twitter.com/HyperscaleFund/status/1529785401489211392">
+      back
+    </a>
+    {/* <Meta /> */}
+    {/* <Section1 /> */}
     {/* <Section2 /> */}
-    <Section3 />
+    {/* <Section3 /> */}
     {/* <Section4 /> */}
     {/* <Section5 /> */}
-    <Footer />
+    {/* <Footer /> */}
   </div>
 )
 
