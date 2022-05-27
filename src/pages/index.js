@@ -9,9 +9,10 @@ import Footer from "../components/Footer"
 
 const Landing = () => (
   <div>
-    <a href="https://twitter.com/HyperscaleFund/status/1529785401489211392">
+    <h1>Coming in 45 mintues!</h1>
+    {/* <a href="https://twitter.com/HyperscaleFund/status/1529785401489211392">
       back
-    </a>
+    </a> */}
     {/* <Meta /> */}
     {/* <Section1 /> */}
     {/* <Section2 /> */}
