@@ -17,7 +17,7 @@ const Meta = ({ title, desc }) => {
       <meta property="og:url" content="https://hyperscalefund.com" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={desc} />
-      <meta property="og:image" content="https://i.imgur.com/cqI6OJT.png" />
+      <meta property="og:image" content="https://i.imgur.com/Ku06CE9.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://hyperscalefund.com/" />
@@ -25,7 +25,7 @@ const Meta = ({ title, desc }) => {
       <meta property="twitter:description" content={desc} />
       <meta
         property="twitter:image"
-        content="https://i.imgur.com/cqI6OJT.png"
+        content="https://i.imgur.com/Ku06CE9.png"
       />
     </Head>
   )
