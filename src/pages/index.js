@@ -9,18 +9,20 @@ import Footer from "../components/Footer"
 
 const Landing = () => (
   <div>
-    <h1>Coming in 45 mintues!</h1>
-    {/* <a href="https://twitter.com/HyperscaleFund/status/1529785401489211392">
-      back
-    </a> */}
-    {/* <Meta /> */}
-    {/* <Section1 /> */}
+    <Meta />
+    <Section1 />
     {/* <Section2 /> */}
-    {/* <Section3 /> */}
-    {/* <Section4 /> */}
-    {/* <Section5 /> */}
-    {/* <Footer /> */}
+    <Section3 />
+    {/* <Section4 />
+    <Section5 /> */}
+    <Footer />
   </div>
 )
+
+// what do we want to communicate?
+// what is the objective for the user?
+
+// what we do and how we work
+// get more communities in the funnel
 
 export default Landing

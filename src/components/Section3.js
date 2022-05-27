@@ -1,4 +1,5 @@
-const text = "We get to a decision fast so you can focus on execution."
+const text =
+  "Have or know of a great builder community? We'd love to hear from you!"
 const ampersand = "&"
 const apostrophe = "'"
 
@@ -7,7 +8,7 @@ const Section3 = () => (
     <div className="flex flex-col justify-center items-center">
       <div className="my-8">
         <h2 className="font-redrose text-5xl text-center  text-gray-100">
-          Application Process
+          Join the Revolution
         </h2>
       </div>
       <div className="text-white text-xl text-center">{text}</div>
@@ -29,9 +30,8 @@ const Section3 = () => (
             <div className="text-white">
               Email{" "}
               <span className="hs-gradient">apply@hyperscalefund.com</span> and
-              explain how what you{apostrophe}re building is currently solving a
-              real world problem using crypto. Please attach any other useful
-              information (deck, website, social media, whitepaper, etc).
+              explain why the group is promising. Please attach any useful
+              information (deck, website, social media, etc).
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ const Section3 = () => (
           <div className="flex flex-col ml-8 w-72">
             <div className="text-[#BAC4FA] font-bold">CALL</div>
             <div className="text-white">
-              We{apostrophe}d like to know more about your project. We
+              We{apostrophe}d like to know more about the group. We
               {apostrophe}ll ask questions and explore how we can assist.
             </div>
           </div>
