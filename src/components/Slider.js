@@ -3,7 +3,7 @@ import Ticker from "react-ticker"
 import Countdown from "react-countdown"
 
 const Slider = () => {
-  const sponsorship = 1653687865827 + 172800 * 1000
+  const sponsorship = 1653687865827 + 172800 * 1.25 * 1000
   const investment = 1653687865827 + 2419200 * 1000
 
   return (
