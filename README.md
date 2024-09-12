@@ -12,7 +12,7 @@
 
 Open source and open to contributors!
 
-Preview: https://hyperscaledao.vercel.app/
+Preview: https://hyperscalefund.com
 
 ## Installation
 
